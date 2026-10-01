@@ -39,7 +39,7 @@ Fonti: ARERA, tabella “Imposte sul gas” (Relazione annuale 2023, link nella 
 
 
 AGGIORNAMENTO IMPOSTE GAS
-Nel profilo, “Aggiorna aliquote accisa e IVA” apre i collegamenti alle fonti ADM e ARERA e consente di inserire le aliquote aggiornate. Le modifiche si salvano nel profilo locale e nei backup; “Ripristina valori standard” elimina le modifiche e ripristina le aliquote incluse nell’app. L’app non controlla automaticamente i siti: mostra la data di riferimento e non segnala cambiamenti finché non si consulta la fonte. Le categorie del dettaglio ARERA mostrano sempre l’importo riepilogativo; apri una categoria per vedere le quantità, le aliquote applicate e i singoli importi.
+Nel profilo, “Aggiorna aliquote accisa e IVA” apre i collegamenti alle fonti ADM e ARERA e consente di inserire le aliquote aggiornate. Le modifiche si salvano nel profilo locale e nei backup; “Ripristina valori standard” elimina le modifiche e ripristina le aliquote incluse nell’app. L’app non controlla automaticamente i siti: mostra la data di riferimento e non segnala cambiamenti finché non si consulta la fonte. Le categorie del dettaglio in stile ARERA sono disponibili per luce e gas e mostrano sempre l’importo riepilogativo; apri una categoria per vedere quantità, aliquote applicate e singoli importi. Per la luce il dettaglio distingue vendita, rete (quote fissa, potenza ed energia), oneri, subtotal prima imposte, accisa e IVA. Le componenti elettriche sono una stima dell’app e possono essere aggregate rispetto al prospetto puntuale ARERA.
 
 
 MANUALE
