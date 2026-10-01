@@ -23,7 +23,7 @@ RICERCA FORNITORE E STIMA TOTALE
 Usa il campo Cerca fornitore o offerta per filtrare la lista. La stima totale aggiunge le componenti regolate 2026 di rete e oneri, oltre ad accisa e IVA stimate. Per il gas seleziona la regione; le imposte regionali sono calcolate per scaglioni e possono essere adattate alla zona climatica e al territorio fiscale.
 
 
-I pulsanti Aggiorna elettrico, Aggiorna gas e Aggiorna dual fuel mostrano quale XML scaricare e offrono il collegamento alla pagina Open Data ARERA: https://www.ilportaleofferte.it/portaleOfferte/it/open-data.page . Nella sezione Offerte Mercato Libero scarica il relativo XML, poi torna all’app, seleziona la commodity e importa il file. Questo flusso funziona anche su mobile; il BAT resta utile solo per avviare l’app in Windows.
+I pulsanti Aggiorna elettrico, Aggiorna gas e Aggiorna dual fuel si comportano allo stesso modo su PC e mobile: mostrano quale file scaricare e aprono la pagina https://www.ilportaleofferte.it/portaleOfferte/it/open-data.page . Nella sezione Offerte Mercato Libero scarica il relativo XML. Se i file hanno lo stesso nome, rinominali uno per volta (offerte-elettrico.xml, offerte-gas.xml, offerte-dual-fuel.xml), mantenendo l’estensione .xml, poi importa il file corretto nell’app. Il BAT serve solo per avviare l’app in Windows.
 
 Sconti XML ARERA: la stima considera gli sconti del primo anno, distinguendo quelli prima/dopo IVA e segnalando quelli condizionati. Per aggiornare le offerte con i nuovi campi, reimporta l’XML. Gli sconti condizionati entrano nel totale solo attivando l’opzione nel profilo.
 
