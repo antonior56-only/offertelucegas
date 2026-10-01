@@ -1,6 +1,7 @@
 ENERGIA CHIARA — prima versione
 
-Per scaricare direttamente gli XML ARERA avvia `avvia-energia-chiara.bat` e lascia aperta la finestra del server. L’app si aprirà dal file locale, mantenendo i dati salvati nel browser. I pulsanti Aggiorna usano il server locale per scaricare l’XML come allegato, senza mostrarlo nella scheda. Se vuoi solo consultare l’app senza scaricare, puoi aprire `index.html` direttamente.
+AVVIO SU WINDOWS
+Estrai il pacchetto ZIP in una cartella e avvia `avvia-energia-chiara.bat`. L’app si apre nel browser; lascia aperta la finestra del server mentre la usi. I pulsanti Aggiorna aprono la pagina Open Data ARERA, non scaricano direttamente il file. La copia locale mantiene i dati nel browser usato per aprirla. Per installare la PWA, pubblica tutti i file su HTTPS e apri l’indirizzo nel browser.
 
 IMPORTARE I FILE ARERA
 1. Apri il collegamento “Apri Open Data” nell’app.
@@ -12,8 +13,8 @@ Le offerte vengono ordinate in base ai corrispettivi unitari e alle quote fisse 
 LIMITI DELLA STIMA
 La stima aggiunge alle componenti di vendita le componenti regolate disponibili, imposte stimate e sconti del primo anno presenti nel file. La localizzazione è per regione/ambito, non sempre per singolo comune o classe del contatore; i prezzi variabili sono una fotografia e non una previsione. Per la stima ufficiale completa apri il Portale Offerte ARERA.
 
-INSTALLAZIONE
-Per installare come PWA pubblica tutti i file della cartella outputs su un hosting HTTPS. Il pulsante “Installa app” appare quando il browser comunica che è disponibile e resta nascosto se l’app è già installata. Su iPhone usa Condividi > Aggiungi alla schermata Home.
+INSTALLAZIONE PWA
+La PWA si installa solo se tutti i file sono pubblicati e aperti da un indirizzo HTTPS. Su Android/Chrome apri l’indirizzo e scegli Installa app o Aggiungi a schermata Home; su iPhone/iPad usa Safari > Condividi > Aggiungi alla schermata Home. Il pulsante “Installa app” appare solo nei browser che lo supportano e quando non è già installata.
 
 BACKUP E PRIVACY
 “Backup” scarica un JSON da trasferire su un altro dispositivo; Impostazioni permette ripristino e sincronizzazione JSONBin facoltativa. La Access Key JSONBin è salvata nel browser; usa una chiave dedicata e non la Master Key. La sincronizzazione invia profilo, offerte e indici a JSONBin.io, servizio terzo.
@@ -23,7 +24,7 @@ RICERCA FORNITORE E STIMA TOTALE
 Usa il campo Cerca fornitore o offerta per filtrare la lista. La stima totale aggiunge le componenti regolate 2026 di rete e oneri, oltre ad accisa e IVA stimate. Per il gas seleziona la regione; le imposte regionali sono calcolate per scaglioni e possono essere adattate alla zona climatica e al territorio fiscale.
 
 
-I pulsanti Aggiorna elettrico, Aggiorna gas e Aggiorna dual fuel si comportano allo stesso modo su PC e mobile: mostrano quale file scaricare e aprono la pagina https://www.ilportaleofferte.it/portaleOfferte/it/open-data.page . Nella sezione Offerte Mercato Libero scarica il relativo XML. Se i file hanno lo stesso nome, rinominali uno per volta (offerte-elettrico.xml, offerte-gas.xml, offerte-dual-fuel.xml), mantenendo l’estensione .xml, poi importa il file corretto nell’app. Il BAT serve solo per avviare l’app in Windows.
+I pulsanti Aggiorna elettrico, Aggiorna gas e Aggiorna dual fuel si comportano allo stesso modo su PC e mobile: mostrano quale file scaricare e aprono la pagina https://www.ilportaleofferte.it/portaleOfferte/it/open-data.page . Nella sezione Offerte Mercato Libero scarica il relativo XML. Se i file hanno lo stesso nome, rinominali uno per volta (offerte-elettrico.xml, offerte-gas.xml, offerte-dual-fuel.xml), mantenendo l’estensione .xml, poi importa il file corretto nell’app. L’app importa le offerte Luce e Gas separatamente e non calcola il totale dual fuel combinato: per quello usa il confronto ufficiale ARERA. Il BAT serve solo per avviare l’app in Windows.
 
 Sconti XML ARERA: la stima considera gli sconti del primo anno, distinguendo quelli prima/dopo IVA e segnalando quelli condizionati. Per aggiornare le offerte con i nuovi campi, reimporta l’XML. Gli sconti condizionati entrano nel totale solo attivando l’opzione nel profilo.
 
