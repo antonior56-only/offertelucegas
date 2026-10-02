@@ -17,7 +17,7 @@ INSTALLAZIONE PWA
 La PWA si installa solo se tutti i file sono pubblicati e aperti da un indirizzo HTTPS. Su Android/Chrome apri l’indirizzo e scegli Installa app o Aggiungi a schermata Home; su iPhone/iPad usa Safari > Condividi > Aggiungi alla schermata Home. Il pulsante “Installa app” appare solo nei browser che lo supportano e quando non è già installata.
 
 BACKUP E PRIVACY
-“Backup” scarica un JSON da trasferire su un altro dispositivo; Impostazioni permette ripristino e sincronizzazione JSONBin facoltativa. La Access Key JSONBin è salvata nel browser; usa una chiave dedicata e non la Master Key. La sincronizzazione invia profilo, offerte e indici a JSONBin.io, servizio terzo.
+Il pulsante “Dati e backup” apre un pannello unico con esportazione e ripristino JSON, aliquote e sincronizzazione JSONBin facoltativa. La Access Key JSONBin è salvata nel browser; usa una chiave dedicata e non la Master Key. La sincronizzazione invia profilo, offerte e indici a JSONBin.io, servizio terzo.
 
 
 RICERCA FORNITORE E STIMA TOTALE
@@ -44,3 +44,7 @@ Nel profilo, “Aggiorna aliquote accisa e IVA” apre i collegamenti alle fonti
 
 MANUALE
 Premi il pulsante “Istruzioni” nell’intestazione per aprire il manuale PDF. Il file è incluso nella cartella e nel pacchetto ZIP; quando disponibile viene anche conservato nella cache per la consultazione offline.
+
+
+PROFILI UTENZA
+Crea un profilo distinto per casa, negozio o ufficio. Domestico e Altri usi filtrano le offerte in base al tipo cliente presente nell’XML (per recuperare il nuovo campo, reimporta i file). Per la luce puoi scegliere monorario, fasce orarie o nessuna preferenza. Con fasce inserisci F1, F2 e F3 annui dalla bolletta; la somma deve coincidere con il consumo totale. Il filtro “solo rinnovabili” mostra solo le offerte luce con dichiarazione riconosciuta nei dati XML. Per Altri usi il calcolo delle componenti regolate e delle imposte è semplificato: usa il Portale Offerte ARERA per la verifica localizzata.
