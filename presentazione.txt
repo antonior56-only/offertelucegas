@@ -1,0 +1,11 @@
+Energia Chiara
+
+Con i prezzi di luce e gas in continuo cambiamento, scegliere l’offerta più adatta può aiutare a tenere sotto controllo la spesa. Energia Chiara ti permette di confrontare le offerte in base ai consumi e al profilo che hai impostato.
+
+I dati delle offerte si basano sui file pubblicati nell’Open Data del Portale Offerte ARERA. ARERA è l’Autorità di Regolazione per Energia Reti e Ambiente: l’ente pubblico che regola e vigila sui servizi energetici e ambientali in Italia.
+
+Prima di confrontare, aggiorna i dati importando i file più recenti: quelli già salvati potrebbero essere superati. La stima dell’app è indicativa; prima di scegliere, verifica sempre prezzi, sconti e condizioni sul sito del fornitore, usando il link presente nella scheda dell’offerta.
+
+Per questa prima condivisione puoi utilizzare il backup già preparato, “energia-chiara-backup - Copia.json”: nell’app apri “Dati e backup” e scegli “Ripristina backup”. Il file contiene 3.335 offerte e un profilo generico, ma non include indici energia né preferiti. Dopo il ripristino, ciascuno inserisca nel profilo i propri consumi, la potenza, la residenza e la regione.
+
+Per i successivi aggiornamenti delle offerte, segui la procedura standard: scarica gli XML più recenti dalla sezione “Offerte Mercato Libero” di Open Data ARERA e importali nell’app. Per imparare a importare i dati e usare tutte le funzioni, apri “Istruzioni” e consulta il manuale incluso.

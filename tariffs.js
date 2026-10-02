@@ -7,3 +7,5 @@ window.ARERA_GAS_RATES={
   "isole":{"regions":["Calabria","Sicilia"],"tiers":[0,.258579,.236671,.237667,.177586,.089955],"fixed":96.32,"common":.142674},
   "sardegna":{"regions":["Sardegna"],"tiers":[0,.258579,.236671,.237667,.177586,.089955],"fixed":96.32,"common":.142674}
 };window.ARERA_GAS_RATES_DATE="2026-10";window.ARERA_GAS_SYSTEM={fixed:-21.63,tiers:[0,.0496,.0293,.0237,.017,.0071],re:.029417,ug3:.007292};window.ARERA_GAS_TAX={exciseNormal:[.044,.175,.17,.186],exciseSouth:[.038,.135,.12,.15],ivaLow:.10,ivaHigh:.22,checkedOn:"2026-09-18",regionalTableDate:"2025-01"};
+
+window.ARERA_ELECTRIC_RATES={dispatch:.018468,networkUnit:.01473,networkFixed:23.04,powerAnnual:23.7188,systemUnit:.033153,asosNonResident:95.0916,exciseDomestic:.0227,exciseOther:.0125};window.ARERA_ELECTRIC_RATES_DATE="2026-08";window.ARERA_ELECTRIC_RATES_SOURCE="ARERA, corrispettivi per clienti domestici nel mercato libero, workbook agosto 2026";
