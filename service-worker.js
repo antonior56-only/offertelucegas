@@ -1,4 +1,4 @@
-const CACHE='energia-chiara-v31';
+const CACHE='energia-chiara-v34';
 const CORE=['./','./index.html','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./vendors.js','./tariffs.js','./places.js'];
 const OPTIONAL=['./manuale-energia-chiara.pdf'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
@@ -31,3 +31,6 @@ self.addEventListener('fetch',event=>{
     return response;
   })));
 });
+
+
+
