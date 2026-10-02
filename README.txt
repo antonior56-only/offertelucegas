@@ -6,9 +6,9 @@ Estrai il pacchetto ZIP in una cartella e avvia `avvia-energia-chiara.bat`. L’
 IMPORTARE I FILE ARERA
 1. Apri il collegamento “Apri Open Data” nell’app.
 2. Nella sezione “Offerte Mercato Libero” scarica “Offerte (xml)” per elettrico e gas. Il mercato domestico viene filtrato automaticamente dal file.
-3. Seleziona la commodity corrispondente nell’app e importa il file XML. Dopo gli aggiornamenti del parser, reimporta il file per vedere tutti i componenti. Per gli indici apri la scheda Indici energia, usa “Scarica CSV prezzi storici” e poi “Importa CSV indici”.
+3. All’avvio scegli Luce e gas, Solo luce oppure Solo gas nel menu della schermata Confronta; l’app carica i relativi dati solo dopo la scelta. Scegli la commodity corrispondente e importa il file XML. Dopo gli aggiornamenti del parser, reimporta il file per vedere tutti i componenti. Per gli indici apri la scheda Indici energia, usa “Scarica CSV prezzi storici” e poi “Importa CSV indici”.
 
-Le offerte vengono ordinate in base ai corrispettivi unitari e alle quote fisse trovate nel file; per alcuni contratti variabili viene aggiunto l’ultimo PUN o PSV disponibile. La media delle fasce elettriche è semplice, non personalizzata sulle fasce F1/F2/F3. Il file ARERA riporta il venditore tramite partita IVA. L’app mostra la ragione sociale quando è presente nella mappa ricavata dagli elenchi pubblici MASE; altrimenti mostra comunque la partita IVA.
+Le offerte preferite vengono caricate solo quando apri la scheda Preferite. Le offerte vengono ordinate in base ai corrispettivi unitari e alle quote fisse trovate nel file; per alcuni contratti variabili viene aggiunto l’ultimo PUN o PSV disponibile. La media delle fasce elettriche è semplice, non personalizzata sulle fasce F1/F2/F3. Il file ARERA riporta il venditore tramite partita IVA. L’app mostra la ragione sociale quando è presente nella mappa ricavata dagli elenchi pubblici MASE; altrimenti mostra comunque la partita IVA.
 
 LIMITI DELLA STIMA
 La stima aggiunge alle componenti di vendita le componenti regolate disponibili, imposte stimate e sconti del primo anno presenti nel file. La localizzazione è per regione/ambito, non sempre per singolo comune o classe del contatore; i prezzi variabili sono una fotografia e non una previsione. Per la stima ufficiale completa apri il Portale Offerte ARERA.
